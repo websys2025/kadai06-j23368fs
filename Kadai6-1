@@ -1,12 +1,12 @@
 import requests
 
-APP_ID = "07703b58e68455b5184e8cd6843dcd4b4b23182f" #アプリケーションID
+APP_ID = "07703b58e68455b5184e8cd6843dcd4b4b23182f" 　#アプリケーションID
 API_URL  = "https://api.e-stat.go.jp/rest/3.0/app/json/getStatsData" 
 
 params = {
     "appId": APP_ID,
-    "statsDataId": "0003143513",  #消費者物価指数
-    "cdArea": "00000",   #全国
+    "statsDataId": "0003143513",　  #消費者物価指数
+    "cdArea": "00000",   　#全国
     "metaGetFlg":"Y",
     "cntGetFlg":"N",
     "explanationGetFlg":"Y",
